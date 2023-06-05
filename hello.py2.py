@@ -1,1 +1,0 @@
-def multiple(*kopaytir):    sonlar=1    for son in kopaytir:        sonlar *= son    return sonlarsonlarim=multiple(34,45,54,32)def student_info(name, family_name, **info):    info['name'] =name    info['family_name']=family_name    return infomalumot=student_info('Ibrohimjon', 'Raxmonov', t_yily=2004, t_joy='quva')
